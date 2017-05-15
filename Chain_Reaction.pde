@@ -40,7 +40,7 @@ void draw(){
    
 void touch(Ball b){
      for (int i=0; i<balls.length; i++){
-       if (others[i].x == b.x){
+       if (balls[i].x == b.x){
          b.state=1;
          b.state=2;
          b.state=3;
